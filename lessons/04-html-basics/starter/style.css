@@ -1,0 +1,14 @@
+h1 {
+  font-size: 28px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+padding: 8px;
+color: rgb(54, 99, 100);
+}
+body { 
+    background-color: beige;
+    color: rgb(54, 99, 100);
+}
+button { 
+    background-color: cadetblue;
+color: beige;
+}
