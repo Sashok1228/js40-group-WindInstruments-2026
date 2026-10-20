@@ -1,7 +1,7 @@
 /* Базовые стили — усиль цвета и размеры */
 body {
   font-family: system-ui, sans-serif;
-  background: #eee;
+  background: #323044;
   color: #333;
   margin: 0;
   padding: 24px;
@@ -11,23 +11,29 @@ body {
   max-width: 480px;
   margin: 0 auto;
   padding: 16px;
-  background: #fff;
-  border: 1px solid #ccc;
+  background: #afa6da;
+  border: 15px solid #e0d388;
+border-radius: 30px;
 }
 
 h1 {
-  font-size: 1.4rem;
+  font-size: 3.5rem;
   margin-top: 0;
 }
 
 .meta {
-  color: #666;
+  color: #f7f7b6;
   font-size: 0.95rem;
 }
 
 button {
   padding: 8px 12px;
-  border: 1px solid #333;
-  background: #ddd;
+  border: 1px solid #cfda70;
+  background: #fffeb6;
   cursor: pointer;
+}
+.ticket {
+  border-radius: 50%;
+ font-size: medium;
+ 
 }
