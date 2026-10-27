@@ -13,6 +13,23 @@ function playA4() {
   gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.4);
   osc.stop(ctx.currentTime + 0.4);
 }
+let isPlaying = false
+const playBtn = document.querySelector("#playBtn");
+playBtn.addEventListener("click", function () {
+  isPlaying = !isPlaying;
+if (isPlaying) { 
+  playBtn.style.background = "tomato";
+  playBtn.textContent = "pause";
+  status.textContent = "идет запись";
+}else{
+  playBtn.style.background = "#7c5cff";
+  playBtn.textContent = "pause";
+  status.textContent = "идет запись";
+}
+}
+const status = document.querySelector("#status");
+const toneBtn = document.querySelector("#toneBtn");
+console.log(playBtn)
 
 // TODO: найди #playBtn и #status, по клику меняй текст и цвет
 // TODO: найди #toneBtn, по клику вызови playA4()
